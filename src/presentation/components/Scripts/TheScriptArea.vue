@@ -43,8 +43,8 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .scripts {
-  > * + * {
-    margin-top: 15px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 </style>
